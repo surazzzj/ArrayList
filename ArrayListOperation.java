@@ -1,9 +1,9 @@
 import java.util.ArrayList;
-import java.util.List;
+// import java.util.List;
 
 public class ArrayListOperation {
     public static void main(String[] args) {
-        List<Integer> l1 = new ArrayList<>();
+        ArrayList<Integer> l1 = new ArrayList<>();
 
         // Adding elements
         l1.add(10);
@@ -17,7 +17,7 @@ public class ArrayListOperation {
 
         System.out.println();
 
-        List<Integer> l2 = new ArrayList<>();
+        ArrayList<Integer> l2 = new ArrayList<>();
 
         // Adding all elements from l1
         l2.addAll(l1);
